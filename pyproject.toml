@@ -35,6 +35,9 @@ ahds = [
     "azure-health-deidentification (>=1.1.0b1,<2.0.0)"
 ]
 
+[tool.poetry]
+package-mode = false
+
 [tool.poetry.group.dev.dependencies]
 pip = "*"
 ruff = "*"
